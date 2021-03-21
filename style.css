@@ -1,0 +1,58 @@
+*{
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+}
+body{
+    background-color: teal;
+    text-align: center;
+}
+
+
+img{
+    width: 350px;
+    position: absolute;
+    top: -30px;
+    right: 25px;
+    height: 350;
+}
+section{
+    background-color: black;
+    text-align: center;
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin: 200px auto 0px auto;
+    color: white;
+}
+
+
+
+.one{
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    text-align: center;
+}
+
+section:hover{
+    height: 425px;
+    transition: 2s all;
+}
+
+
+
+section:hover .one{
+    opacity: 1;
+    transition: 2s all;
+}
+
+section:hover img{
+    top: -100px;
+    transform: rotate(360deg);
+    border-radius: 50%;
+    transition:2s all;
+}
